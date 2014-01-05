@@ -6,6 +6,7 @@ describe User do
 
 	it { should respond_to(:nema) }
 	it { should respond_to(:email) }
+	it { should respond_to(:password_digest) }
 
 	it { should be_valid }
 
